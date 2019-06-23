@@ -1,0 +1,12 @@
+ul.difftab {
+	list-style-type: none;
+}
+
+ul.difftab li {
+	display: inline;
+	padding: 0.1em 0.1em;
+}
+
+li.difftab-active  {
+	background-color: #4CAF50;
+}
