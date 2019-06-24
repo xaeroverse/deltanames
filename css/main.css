@@ -1,12 +1,30 @@
-ul.difftab {
+ul.apptab {
 	list-style-type: none;
 }
 
-ul.difftab li {
+ul.apptab li {
 	display: inline;
 	padding: 0.1em 0.1em;
+	background-color: grey;
 }
 
-li.difftab-active  {
+ul.apptab li.apptab-active  {
 	background-color: #4CAF50;
+	color: black;
 }
+
+ul.difftab, ul.reporttab {
+	list-style-type: none;
+}
+
+ul.difftab li, ul.reporttab li {
+	display: inline;
+	padding: 0.1em 0.1em;
+	background-color: grey;
+}
+
+ul.difftab li.difftab-active , ul.reporttab li.reporttab-active {
+	background-color: #4CAF50;
+	color: black;
+}
+
